@@ -12,6 +12,7 @@ body {
 header {
   color: #fff;
   text-align: center;
+  margin: auto;
 }
 
 #titulo-h1 {
@@ -32,6 +33,11 @@ div {
   padding: 10px;
 }
 
+#msg {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
 #img {
   width: 200px;
   height: 200px;
@@ -46,4 +52,12 @@ footer {
 
 #p-footer {
   padding: 15px;
+}
+
+/* Responsividade */
+
+@media (max-width: 500px) {
+  section {
+    width: 100%;
+  }
 }
